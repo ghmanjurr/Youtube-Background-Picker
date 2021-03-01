@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    height: 400px;
+}
+
+body{
+    height: 100vh;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+#purple{
+    background-color: rgba(241, 63, 247, 1)
+}
+
+#green{
+    background-color: rgba(0, 253, 81, 1);
+}
+
+#blue{
+    background-color: rgba(0, 254, 255, 1);
+}
